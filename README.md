@@ -1,14 +1,14 @@
-# Mini-Project
+# Your portfolio
 
-In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
+I build a command-line tool that generates an HTML portfolio page from your/user input.
 
-## Instructions
+## Description
 
-* Your application should prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.
+* The application prompt users for information like their name, location, bio, LinkedIn URL, and GitHub URL.
 
-* An HTML document containing the information collected from the prompts should be constructed and written to the file system. Be sure to add some CSS styling to the document.
+* A HTML document containing the information collected from the prompts is constructed and written to the file system.
 
-* You’ll need the following tools and technologies to accomplish this:
+* The task was accomplished using:
 
   * `fs` for writing to the file system.
 
@@ -17,14 +17,6 @@ In this activity, you will build a command-line tool that generates an HTML port
   * String template literals for generating a string version of the HTML document before it is written to the file system.
 
   * Promises for handling asynchronous behavior.
-
-## 💡 Hint
-
-It might be a good idea to start building out the HTML skeleton in a real HTML file. Once you're happy with the HTML file's appearance in the browser, you can copy and paste its contents into a string template literal. Then you can write a function to insert the user input into the appropriate places in the HTML string before writing it to the file system.
-
-## 🏆 BONUS
-
-* Instead of using promises, how can we use `async/await` and `try/catch` to control the flow of our asynchronous code?
 
 ---
 
